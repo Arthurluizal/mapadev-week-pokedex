@@ -39,11 +39,9 @@ listaSelecaoPokemon.forEach(pokemon => {
         cartaoPokemonParaAbrir.classList.add('aberto')
 
         const pokemonAtivoNaListagem = document.querySelector('.ativo')
-
         pokemonAtivoNaListagem.classList.remove('ativo')
 
         const pokemonSelecionadoNaListagem = document.getElementById(idPokemonSelecionado)
-
         pokemonSelecionadoNaListagem.classList.add('ativo')
 
     })
